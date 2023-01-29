@@ -215,7 +215,9 @@ class Dataset_Custom(Dataset):
         self.freq = freq
 
         self.root_path = root_path
+        print ("************************************************",root_path)
         self.data_path = data_path
+        print ("************************************************",data_path)
         self.__read_data__()
 
     def __read_data__(self):
