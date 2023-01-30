@@ -54,7 +54,7 @@ def get_dls(params):
                 )
 
     elif params.dset == 'etth1':
-        root_path = '/content/PatchTST/PatchTST_self_supervised/dataset/ETTh1.csv'
+        root_path = '/content/PatchTST/PatchTST_self_supervised/dataset'
         size = [params.context_points, 0, params.target_points]
         dls = DataLoaders(
                 datasetCls=Dataset_ETT_hour,
